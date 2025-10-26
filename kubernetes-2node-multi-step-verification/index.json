@@ -30,8 +30,18 @@
         "title": "Get Nodes",
         "text": "step5/text.md",
         "verify": "step5/verify.sh"
+      },
+        {
+        "title": "Install Kubernetes dashboard and explore",
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
       }
     ],
+    "assets": {
+      "host01": [
+        {"file": "dashboard.yaml", "target": "/root", "chmod": "+w"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
