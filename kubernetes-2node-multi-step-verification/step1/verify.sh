@@ -1,3 +1,5 @@
 #!/bin/bash
 
-kubectl get pod my-pod
+kubectl get pods
+
+exit 0
