@@ -10,9 +10,8 @@ Types of Services:
 `NodePort`: Expose a port on the server IP to expose the pod
 `LoadBalancer`: Expose on a cloud loadbalancer (Needs cloud integration)
 
-Now let's edit one of the service to be `NodePort`
+Now let us expose our deployment port
 
-`kubectl edit svc servicename`
-
+`kubectl expose deployment nginx-ravindra --type=NodePort`
 
 Once you have a port, open the menu on top right and use the port number to visit your service.
