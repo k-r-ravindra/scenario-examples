@@ -11,4 +11,5 @@ Check if the deployment is successful
 Now try deleting the pod 
 
 `kubectl get pods`
+
 `kubectl delete pod nginx-xxxxxx`
